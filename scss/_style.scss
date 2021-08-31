@@ -15,7 +15,6 @@ header {
         color: $color-1;
         @include transition(all, 2s, linear);
         &:hover {
-          border-color: $color-2;
           color: khaki;
         }
       }
