@@ -7,7 +7,7 @@ header {
     justify-content: space-between;
     display: $display;
     justify-content: $space;
-    background-color: $colo-5;
+    background-color: $color-5;
 
     .list-1 {
       font-family: $zcool;
@@ -21,8 +21,10 @@ header {
     }
     .list-2 {
       font-family: "Allison";
+
       a {
         color: $color-2;
+        font-weight: $bold;
       }
     }
   }
@@ -58,10 +60,41 @@ header {
       .wraper {
         max-width: 400px;
         height: 400px;
-
         img {
           width: 100%;
         }
+      }
+    }
+  }
+}
+footer {
+  h2 {
+    font-family: "Allison";
+    text-align: $center;
+    font-size: $size;
+    background-color:$color-6;
+    max-width: $width;
+    margin: $centering;
+  }
+  .container {
+    max-width: $width;
+    margin: $centering;
+    background-color: $color-5;
+    display: $display;
+    justify-content: $around;
+    .icons {
+      display:$display;
+      align-items: center;
+      justify-content:$space;
+      width: 500px;
+    }
+    .list {
+      font-family: "Allison";
+      a {
+        font-weight: $bold;
+        font-size: $size2;
+        color: $color-2;
+
       }
     }
   }

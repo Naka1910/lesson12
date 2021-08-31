@@ -91,6 +91,7 @@ header .container .list-2 {
 
 header .container .list-2 a {
   color: #1f1f1f;
+  font-weight: bold;
 }
 
 .section {
@@ -133,5 +134,39 @@ header .container .list-2 a {
 
 .section .container .images .wraper img {
   width: 100%;
+}
+
+footer h2 {
+  font-family: "Allison";
+  text-align: center;
+  font-size: 25px;
+  background-color: #619c61;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #7f6e83;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .container .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+}
+
+footer .container .list {
+  font-family: "Allison";
+}
+
+footer .container .list a {
+  font-weight: bold;
+  font-size: 20px;
+  color: #1f1f1f;
 }
 /*# sourceMappingURL=global.css.map */
