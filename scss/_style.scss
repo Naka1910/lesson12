@@ -1,0 +1,69 @@
+header {
+  @include position(fixed, 0px, 0px);
+  width: 100%;
+  .container {
+    max-width: 1200px;
+    margin: $centering;
+    justify-content: space-between;
+    display: $display;
+    justify-content: $space;
+    background-color: $colo-5;
+
+    .list-1 {
+      font-family: $zcool;
+      a {
+        color: $color-1;
+        @include transition(all, 2s, linear);
+        &:hover {
+          border-color: $color-2;
+          color: khaki;
+        }
+      }
+    }
+    .list-2 {
+      font-family: "Allison";
+      a {
+        color: $color-2;
+      }
+    }
+  }
+}
+.section {
+  margin-top: 200px;
+  .container {
+    background-color: $color-4;
+    max-width: 1200px;
+    margin: $centering;
+
+    h2 {
+      font-family: $zcool;
+      color: $color-3;
+      display: $display;
+      justify-content: $center;
+      margin: $margin;
+      @include border(2px, solid, rgb(92, 113, 128));
+      @include transition(all, 2s, linear);
+      &:hover {
+        border-color: $color-2;
+        color: khaki;
+      }
+    }
+
+    .images {
+      display: $display;
+      justify-content: $around;
+      background-color: $color-4;
+      margin: $margin;
+      padding-top: $padding;
+
+      .wraper {
+        max-width: 400px;
+        height: 400px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@mixin position ($fixed,$left, $top){
+    position: $fixed;
+    left:$left;
+    top: $top;
+}
+@mixin border($size,$style,$color) {
+    border: $size $style $color;
+}
+@mixin transition($property,$duration,$type) {
+    transition:$property $duration $type ;
+    
+}
