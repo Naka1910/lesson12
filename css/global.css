@@ -82,7 +82,7 @@ header .container .list-1 a {
 }
 
 header .container .list-1 a:hover {
-  border-color: #D64117;
+  border-color: #1f1f1f;
   color: khaki;
 }
 
@@ -91,7 +91,7 @@ header .container .list-2 {
 }
 
 header .container .list-2 a {
-  color: #D64117;
+  color: #1f1f1f;
 }
 
 .section {
@@ -115,7 +115,7 @@ header .container .list-2 a {
 }
 
 .section .container h2:hover {
-  border-color: #D64117;
+  border-color: #1f1f1f;
   color: khaki;
 }
 
