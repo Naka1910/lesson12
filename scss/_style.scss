@@ -29,72 +29,74 @@ header {
     }
   }
 }
-.section {
-  margin-top: 200px;
-  .container {
-    background-color: $color-4;
-    max-width: 1200px;
-    margin: $centering;
-
-    h2 {
-      font-family: $zcool;
-      color: $color-3;
-      display: $display;
-      justify-content: $center;
-      margin: $margin;
-      @include border(2px, solid, rgb(92, 113, 128));
-      @include transition(all, 2s, linear);
-      &:hover {
-        border-color: $color-2;
-        color: khaki;
-      }
-    }
-
-    .images {
-      display: $display;
-      justify-content: $around;
+body {
+  background-color: rgb(174, 187, 166);
+  .section {
+    margin-top: 200px;
+    .container {
       background-color: $color-4;
-      margin: $margin;
-      padding-top: $padding;
+      max-width: 1200px;
+      margin: $centering;
 
-      .wraper {
-        max-width: 400px;
-        height: 400px;
-        img {
-          width: 100%;
+      h2 {
+        font-family: $zcool;
+        color: $color-3;
+        display: $display;
+        justify-content: $center;
+        margin: $margin;
+        @include border(2px, solid, rgb(92, 113, 128));
+        @include transition(all, 2s, linear);
+        &:hover {
+          border-color: $color-2;
+          color: khaki;
+        }
+      }
+
+      .images {
+        display: $display;
+        justify-content: $around;
+        background-color: $color-4;
+        margin: $margin;
+        padding-top: $padding;
+
+        .wraper {
+          max-width: 400px;
+          height: 400px;
+          img {
+            width: 100%;
+          }
         }
       }
     }
   }
-}
-footer {
-  h2 {
-    font-family: "Allison";
-    text-align: $center;
-    font-size: 25px;
-    background-color:$color-6;
-    max-width: $width;
-    margin: $centering;
-  }
-  .container {
-    max-width: $width;
-    margin: $centering;
-    background-color: $color-5;
-    display: $display;
-    justify-content: $around;
-    .icons {
-      display:$display;
-      align-items: center;
-      justify-content:$space;
-      width: 500px;
-    }
-    .list {
+  footer {
+    h2 {
       font-family: "Allison";
-      a {
-        font-weight: $bold;
-        font-size: 20px;
-        color: $color-2;
-
+      text-align: $center;
+      font-size: 25px;
+      background-color: $color-6;
+      max-width: $width;
+      margin: $centering;
+    }
+    .container {
+      max-width: $width;
+      margin: $centering;
+      background-color: $color-5;
+      display: $display;
+      justify-content: $around;
+      .icons {
+        display: $display;
+        align-items: center;
+        justify-content: $space;
+        width: 500px;
+      }
+      .list {
+        font-family: "Allison";
+        a {
+          font-weight: $bold;
+          font-size: 20px;
+          color: $color-2;
+        }
       }
     }
   }

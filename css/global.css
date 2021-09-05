@@ -56,18 +56,6 @@ a {
   font-display: swap;
 }
 
-@media (max-width: 800px) {
-  header .container {
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-.section .container .images {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 header {
   position: fixed;
   left: 0px;
@@ -106,17 +94,21 @@ header .container .list-2 a {
   font-weight: bold;
 }
 
-.section {
+body {
+  background-color: #aebba6;
+}
+
+body .section {
   margin-top: 200px;
 }
 
-.section .container {
+body .section .container {
   background-color: #aCA9CE;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.section .container h2 {
+body .section .container h2 {
   font-family: "ZCOOL KuaiLe", cursive;
   color: #30292D;
   display: flex;
@@ -126,12 +118,12 @@ header .container .list-2 a {
   transition: all 2s linear;
 }
 
-.section .container h2:hover {
+body .section .container h2:hover {
   border-color: #1f1f1f;
   color: khaki;
 }
 
-.section .container .images {
+body .section .container .images {
   display: flex;
   justify-content: space-around;
   background-color: #aCA9CE;
@@ -139,16 +131,16 @@ header .container .list-2 a {
   padding-top: 50px;
 }
 
-.section .container .images .wraper {
+body .section .container .images .wraper {
   max-width: 400px;
   height: 400px;
 }
 
-.section .container .images .wraper img {
+body .section .container .images .wraper img {
   width: 100%;
 }
 
-footer h2 {
+body footer h2 {
   font-family: "Allison";
   text-align: center;
   font-size: 25px;
@@ -157,7 +149,7 @@ footer h2 {
   margin: 0 auto;
 }
 
-footer .container {
+body footer .container {
   max-width: 1200px;
   margin: 0 auto;
   background-color: #7f6e83;
@@ -165,18 +157,18 @@ footer .container {
   justify-content: space-around;
 }
 
-footer .container .icons {
+body footer .container .icons {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 500px;
 }
 
-footer .container .list {
+body footer .container .list {
   font-family: "Allison";
 }
 
-footer .container .list a {
+body footer .container .list a {
   font-weight: bold;
   font-size: 20px;
   color: #1f1f1f;
